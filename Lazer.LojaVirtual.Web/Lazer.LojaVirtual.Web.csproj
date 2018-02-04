@@ -105,6 +105,12 @@
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Lazer.LojaVirtual.Dominio\Lazer.LojaVirtual.Dominio.csproj">
+      <Project>{640bd9c6-3cb0-4c62-8d43-0ef99baaf6bc}</Project>
+      <Name>Lazer.LojaVirtual.Dominio</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
